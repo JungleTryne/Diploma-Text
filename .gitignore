@@ -1,0 +1,15 @@
+diploma.aux
+diploma.bbl
+diploma.bcf
+diploma.blg
+diploma.fdb_latexmk
+diploma.fls
+diploma.log
+diploma.out
+diploma.run.xml
+diploma.synctex.gz
+diploma.toc
+pdfa.xmpi
+
+
+diploma/*.aux
