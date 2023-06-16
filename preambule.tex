@@ -60,7 +60,7 @@ isbn=true,
 \appto{\bibsetup}{\raggedright}
 
 \addbibresource{bibliography/betti.bib}
-%\bibliography{bibliography/}
+\bibliography{bibliography/}
 
 
 \usepackage{amsfonts}
@@ -86,6 +86,11 @@ isbn=true,
 
 \usepackage{graphicx} 
 \graphicspath{{images/}}
+
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{adjustbox}
+\usepackage{tabularx}
 
 \renewcommand{\emptyset}{\varnothing}
 \renewcommand{\epsilon}{\varepsilon}
@@ -141,3 +146,5 @@ isbn=true,
 \end{titlepage}
 }
 
+\DeclareCaptionFormat{myformat}{\itshape#1#2#3}
+\captionsetup{format=myformat}
